@@ -1,0 +1,5 @@
+#!/bin/bash
+
+jupyter nbconvert search-terms.ipynb --to html --output doc/search-terms-with-code.html
+
+jupyter nbconvert search-terms.ipynb --no-input --to html --output doc/search-terms.html
